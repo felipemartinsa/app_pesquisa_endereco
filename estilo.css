@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    background-color: #F2F1F1;
+    padding: 40px 0;
+}
+
+header a{
+    display: block;
+    margin: 0 150px;
+    font-size: 1.8rem;
+    font-weight: 250;
+    cursor: pointer
+}
+
+form {
+    margin: 40px 150px;
+}
+
+form input{
+    font-size: 1rem;
+    line-height: 30px;
+    min-width: 30px;
+    padding-left: 10px;
+}
+
+form div.linha1, div.linha2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+form #endereco, #cidade {
+    flex-grow: 1;
+}
+
+#bairro {
+    flex-grow: 2;
+}
+
+#uf {
+    max-width: 70px;
+}
+
+#aviso {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 0, 0, .5);
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    transition: .3;
+    display: none;
+}
